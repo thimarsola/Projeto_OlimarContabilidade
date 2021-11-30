@@ -1,0 +1,52 @@
+@use '../../abstracts' as *;
+
+.product-07{
+  &__row{
+    grid-template-columns: 1fr;
+    gap: calc(var(--gap) * 2);
+
+    &__card{
+      grid-template-columns: 1fr 1.5fr;
+
+      &:nth-child(even){
+        grid-template-columns: 1.5fr 1fr;
+
+        .product-07__row__card__container{
+          order: -1;
+        }
+      }
+
+      &__container{
+        align-self: center;
+
+        ul{
+          list-style: initial;
+          list-style-position: inside;
+        }
+      }
+    }
+  }
+
+  //breakpoint mobile
+  @include mq(sm){
+    &__row{
+      &__card{
+        grid-template-columns: 1fr;
+        gap: 0;
+
+        &:nth-child(even){
+          grid-template-columns: 1fr;
+
+          .product-07__row__card__container{
+            order: 0;
+          }
+        }
+
+        &__image{
+          max-height: 100%;
+          height: 25rem;
+        }
+      }
+    }
+  }
+}

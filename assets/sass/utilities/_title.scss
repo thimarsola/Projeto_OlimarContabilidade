@@ -1,0 +1,33 @@
+@use "../abstracts/mixins" as *;
+
+.title{
+  margin-bottom: var(--fs-400);
+
+  h2{
+    margin-bottom: var(--fs-200);
+    font-size: var(--fs-700);
+  }
+
+  span{
+    display: block;
+    width: var(--fs-1000);
+    height: var(--fs-100);
+    background: var(--clr-primary-500);
+  }
+
+  &-left{
+    text-align: left;
+
+    span{
+      margin-right: auto;
+    }
+  }
+
+  &-center{
+    text-align: center;
+
+    span{
+      margin: 0 auto;
+    }
+  }
+}

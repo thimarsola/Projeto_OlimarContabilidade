@@ -1,0 +1,21 @@
+@use "../../abstracts" as *;
+
+.about-05{
+  &__row{
+    grid-template-columns: 1.5fr 1fr;
+
+    &__content{
+      align-self: flex-end;
+    }
+  }
+
+  //breakpoint mobile
+  @include mq(sm){
+    &__row{
+      grid-template-columns: 1fr;
+      &__image{
+        display: none;
+      }
+    }
+  }
+}

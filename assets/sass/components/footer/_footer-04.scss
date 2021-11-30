@@ -1,0 +1,10 @@
+@use '../../abstracts' as *;
+
+.footer-04{
+}
+
+.link-white-500{
+  &:hover{
+    color: darken($primary, 30%);
+  }
+}
