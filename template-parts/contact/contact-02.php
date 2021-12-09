@@ -31,12 +31,12 @@
                            <i class="icon-map mr-1 clr-primary-500 f-3"></i><?= CONTACT['address']; ?>
                        </a>
 
-                       <a rel="nofollow nooffer noreferrer" class="link-neutral-500 d-flex ai-center mb-2" href="tel:<?= CONTACT['phone']['01']; ?>" target="_blank">
+                       <a rel="nofollow nooffer noreferrer" class="link-neutral-500 d-flex ai-center mb-2" href="tel:<?= formatPhone(CONTACT['phone']['01']); ?>" target="_blank">
                            <i class="icon-phone mr-1 clr-primary-500 f-3"></i>
                            <?= CONTACT['phone']['01']; ?>
                        </a>
 
-                       <a rel="nofollow nooffer noreferrer" class="link-neutral-500 d-flex ai-center mb-2" href="tel:<?= CONTACT['phone']['02']; ?>" target="_blank">
+                       <a rel="nofollow nooffer noreferrer" class="link-neutral-500 d-flex ai-center mb-2" href="tel:<?= formatPhone(CONTACT['phone']['02']); ?>" target="_blank">
                            <i class="icon-phone mr-1 clr-primary-500 f-3"></i>
                            <?= CONTACT['phone']['02']; ?>
                        </a>

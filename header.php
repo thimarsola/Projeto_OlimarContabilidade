@@ -29,7 +29,7 @@
     <meta name="revisit-after" content="7 days">
 
     <meta name="author" content="<?= SITE["name"]; ?> - <?= SITE["domain"]; ?>">
-    <link rel="shortcut icon" href="<?= image('favicon.svg'); ?>"
+    <link rel="shortcut icon" href="<?= image('favicon.svg'); ?>">
 
     <!-- OPEN GRAPH -->
     <meta property="og:locale" content="<?= SITE["locale"]; ?>"/>

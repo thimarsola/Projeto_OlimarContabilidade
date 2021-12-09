@@ -32,8 +32,7 @@
                             <ul>
                                 <li>Pesquisa situação fiscal na Secretaria da Receita Federal;</li>
                                 <li>Envio de declarações em atraso;</li>
-                                <li>Pesquisa e regularização da situação fiscal do profissional autônomo nas</li>
-                                    Prefeituras;
+                                <li>Pesquisa e regularização da situação fiscal do profissional autônomo nas Prefeituras;</li>
                                 <li>Pesquisa no SERASA/ACISA;</li>
                             </ul>
                         </div> 
